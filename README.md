@@ -4,7 +4,7 @@
 
 * BinaryInferno is best described in this paper [BinaryInferno: A Semantic-Driven Approach to Field Inference for Binary Message Formats](https://github.com/binaryinferno/binaryinferno/blob/main/BinaryInferno2023Chandler.pdf).
 
-* Quick Start Google Colab Notebook [BinaryInferno.ipynb](https://github.com/binaryinferno/binaryinferno/blob/main/BinaryInferno.ipynb).
+* Just want to try it on some data? --> Quick Start Google Colab Notebook [BinaryInferno.ipynb](https://github.com/binaryinferno/binaryinferno/blob/main/BinaryInferno.ipynb).
 
 * More examples and better documentation will come as time permits. If you'd like to be notified by email [fill out this form](https://forms.gle/xH3rPyn7GvfSm2pL7).
 
