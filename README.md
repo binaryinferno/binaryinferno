@@ -34,9 +34,35 @@ More complicated usage `cat msgs.txt  | python3 blackboard.py --detectors BE --t
 
 If you want to just use the entropy boundary search: `--detectors boundBE` or `--detectors boundLE`
 
-If you want to bound the timestamp search:
+Timestamp search is performed when a search span is provided:
 * `tslow` is lower bound for timestamps
 * `tshigh` is upper bound for timestamps 
+
+You can also limit the search to use a specific detector or combination of detectors:
+
+* `boundBE`
+* `boundLE`
+* `floatLE`
+* `floatBE`
+* `seq8LE`
+* `seq16LE`
+* `seq24LE`
+* `seq32LE`
+* `seq8BE`
+* `seq16BE`
+* `seq24BE`
+* `seq32BE`
+* `length`
+* `length2LE`
+* `length2BE`
+* `length3LE`
+* `length3BE`
+* `length4LE`
+* `length4BE`
+* `rep_par_BE` (Serialization Pattern Search using BIG ENDIAN multi-byte fields)
+* `rep_par_LE` (Serialization Pattern Search using LITTLE ENDIAN multi-byte fields)
+* `lvstar`
+* `lvone`
 
 Don't worry if timespan is years too wide, that's totally fine in practice.
 
